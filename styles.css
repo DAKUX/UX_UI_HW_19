@@ -1,0 +1,97 @@
+@font-face {
+    font-family: "Electra LT Std-Regular";
+    font-style: normal;
+    font-weight: 400;
+    src: url("path/to/font-file.ttf") format("truetype");
+  }
+  
+  .homescreen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background-color: gray; /* Add desired background color */
+  }
+  
+  .flex-row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px; /* Add margin to create spacing */
+  }
+  
+  .logoelectraltstd-regular-normal-alto-36px,
+  .work,
+  .resumeelectraltstd-regular-normal-alto-30px {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px; /* Add margin to create spacing */
+  }
+  
+  .frame-1 {
+    border: 1px solid #000;
+    margin-top: 20px;
+    width: 400px; /* Add desired width value */
+    height: 300px; /* Add desired height value */
+  }
+  
+  .experimentation-egoelectraltstd-regular-normal-alto-36px {
+    margin-top: 20px;
+  }
+
+  .linked-in-original {
+    margin-top: 20px;
+  }
+  
+  .denveruxdakgmailcomelectraltstd-regular-normal-alto-32px,
+  .copy-writeelectraltstd-regular-normal-alto-32px {
+    margin-top: 20px;
+  }
+  .down-arrow {
+    position: relative;
+    margin-top: 0px; /* Adjust the margin to move the arrow higher */
+    width: 0;
+    height: 30px;
+    margin-left: auto; /* Center the arrow horizontally */
+    margin-right: auto;
+    animation: arrowAnimation 1.5s infinite;
+  }
+  
+  .down-arrow:after {
+    content: " ";
+    position: absolute;
+    top: 10%; /* Position the arrow below the paragraph */
+    left: calc(50% - 5px); /* Center the arrow horizontally */
+    width: 10px;
+    height: 10px;
+    border-bottom: 2px solid;
+    border-right: 2px solid;
+    transform: rotateZ(45deg);
+  }
+  
+  @keyframes arrowAnimation {
+    0% {
+      transform: translate(0, 0);
+    }
+    50% {
+      transform: translate(0, 10px);
+    }
+    100% {
+      transform: translate(0, 0);
+    }
+  }
+  .frame-1 {
+    border: 1px solid #000;
+    margin-top: 20px;
+    width: 300px; /* Add desired width value */
+    height: 300px; /* Add desired height value */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .frame-1 img {
+    max-width: 100%;
+    max-height: 100%;
+  }
